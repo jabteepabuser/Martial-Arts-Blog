@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color: azure;
+}
+
+header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#logo-bg{ /*only the text has the bg and the border*/
+    background-color: rgb(223, 223, 223);
+    border-style: solid;
+    border-width: 4px;
+    padding: 10px 100px 10px 100px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(223, 223, 223);
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 500px;
+    
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.navbar a:hover{
+    background-color: antiquewhite;
+    border-style: dashed;
+    border-width: 2px;
+}
+
